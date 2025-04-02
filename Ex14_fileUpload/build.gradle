@@ -37,7 +37,7 @@ dependencies {
 	// jar파일 명시
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 	
-	// implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+	implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 }
 
 tasks.named('test') {
